@@ -1,0 +1,168 @@
+/* global css */
+
+/* header-section css */
+.header{
+	height: 85px;
+}
+.navbar-nav a{
+	margin-left: 10px;
+
+}
+
+.bg-light{
+	background-color: white !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(49,53,62,.7) !important;
+    padding: 10px 15px;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white!important;
+    background-color: #dd4b2b;
+    transition: 0.5s ease;
+    border-radius: 30px;
+
+}
+.header button{
+	background-color: #dd4b2b;
+}
+
+/* header-banner-css */
+
+.header-banner{
+	background: url(../img/banner.png) no-repeat center top;
+	background-size: cover;
+}
+
+.header-banner button{
+ width: 200px;
+ border-radius: 30px;
+ color: #dd4b2b !important;
+ margin: 60px 0px 110px 0px;
+}
+
+.header-banner h1{
+	padding: 310px 0px 0px 0px;
+}
+
+.one p{
+	font-size: 14px;
+}
+
+/* ournews css */
+
+.our-news{
+	background-color: #edeff1;
+}
+.our-news button{
+ width: 160px;
+ border-radius: 30px;
+ color: black!important;
+ background-color: white!important;
+
+}
+
+.our-news button:hover{
+	color: white!important;
+    background-color: #dd4b2b!important;
+    transition: 0.5s ease;
+}
+
+.our-news img:hover{
+	transform: scale(1.1,1.1);
+	transition: 0.5s ease;
+}
+
+.news-letter{
+	background: url(../img/newsletter.png) no-repeat center top;
+	background-size: cover;
+}
+
+.overlay{
+	background: rgba(0,0,0,0.5);
+	padding: 80px 0px 130px 0px!important;
+}
+
+.last-section button{
+ width: 160px;
+ border-radius: 30px;
+ color: white!important;
+ background-color: #dd4b2b!important;
+
+}
+.two button{
+ width: 160px;
+ border-radius: 30px;
+ color: white!important;
+ background-color: #4b4e73!important;
+
+}
+.contact{
+	background-color: #d75d0e;
+	border: 0px;
+}
+.last{
+	border: 1px solid #dbdbdb;
+	height: 370px;
+}
+footer{
+	background: url(../img/newsletter.png) no-repeat center top;
+	background-size: cover;
+	border: 0px;
+}
+
+
+
+
+.card{
+	background-color: #d75d0e !important;
+}
+
+.sign-up{
+	background-color: #edeff1 !important;
+}
+.news-letter button{
+	width: 150px !important;
+	margin-left: -40px;
+	border-radius: 50px;
+	background-color: white!important;
+	color: black!important;
+	border: 0px;
+	height: 45px!important;
+}
+
+.form-control{
+	border-radius: 50px;
+	width: 320px !important;
+	background: transparent;
+	height: 45px!important;
+	margin-left: 30px !important;
+}
+
+.overlay{
+	padding: 60px 0px;
+}
+@media(max-width: 576px){
+	.header-banner h1{
+		font-size: 30px;
+		padding-top: 180px;
+	}
+	.header-banner p{
+		font-size: 16px;
+	}
+}
+
+@media(max-width: 450px){
+	 .form-control{
+		width: 200px!important;
+		margin-left: 0px!important;
+	}
+
+	.news-letter button{
+		width: 100px!important;
+	}
+}
